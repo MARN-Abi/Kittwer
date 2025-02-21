@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title> Kwitter Salas </title>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <div class="container">
+        <button onclick="logout()"id="logout"class="glyphicon glyphicon-log-out btn btn-danger"> Salir </button>
+     <center> 
+    <h1 class="header"> Kwitter <sup> <img src="m2.png" ></sup> </h1>
+    <h3 id="user_name" class="user_name">  </h3>
+     <div class="form-group input_div_room_page"> 
+    <label> Crea una sala </label>
+    <input type="text" id="room_name" class="form-control" placeholder="#Nombre de la sala"> 
+    </div>
+    <button onclick="addroom()"class="btn btn-success"> Crear sala </button>
+    <h3 class="colorname"> Salas creadas </h3>
+    <div id="output">  </div>
+     </center> 
+     
+    </div>
+    <script src="Kwitter_salas.js"> </script>
+    </body>
+</html>

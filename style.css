@@ -1,0 +1,58 @@
+body{
+    background:linear-gradient ( #cbf133 , #2591d9 , #1882c1 , #0a73aa , #e13dd4);
+}
+.header{ 
+color:cornflowerblue;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+font-size: 45px; 
+letter-spacing: 10px;
+margin-top:80px;
+}
+.header img{
+width: 80px;
+margin: left -15px;
+}
+.logo{
+width: 80px;
+margin-top:30px;
+border-radius:40px;
+}
+#login_button{
+width:80%;
+border-radius:15px;
+}
+#room_name{
+cursor:pointer;
+font-size:20px;
+}
+#logout{
+padding:10px;
+width:80%;
+background: #e13dd4;
+border-radius:15px;
+}
+.input_div_room_page{
+width:80%;
+}
+.input_div label{
+color: aquamarine;
+font-size:20px;
+}
+.input_div_mensage_page label{
+color: brown;
+}
+.input_div_mensage_page #mesg{
+width:80%;
+}
+.input_div_mensage_page button{
+margin-top:15px;
+width:50%;
+}
+.colorname{
+color: azure;
+}
+.login-div{
+background: #1882c1;
+float:none;
+border-radius:15px;
+}
